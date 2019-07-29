@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+} */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* body {
+  width: 40%;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 1.5em auto;
+  color: #333;
+} */
+
+/* h1 {
+  font-weight: 400;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 5rem;
+} */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul .inner {
+    background: rgba(7,34,62,.5);
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    padding: 1.25rem;
+    margin-top: .625rem;
+}
+
+ul li {
+  margin: 0.5em 0;
+}
+
+ul li a.toggle {
+  width: 100%;
+  display: block;
+  border: 1px solid #07223e;
+ 
+  background: #07223e;
+  color: #fefefe;
+  padding: 0.75em;
+  border-radius: 0.15em;
+  transition: background 0.3s ease;
+  align-items: center;
+ 
+  display: flex;
+  flex-flow: row wrap;
+  flex: 2;
+  /* text-align: left; */
+  font-size: 1.1em;
+}
+
+ul li a.toggle:hover {
+    border-color: #ff8534;
+    color: #ff8534;
+}
+ul li a.toggle:focus {
+    border-color: #ff8534;
+    color: #ff8534;
+}
+.faq-items {
+    padding-top: 32px;
+    /* background: rebeccapurple; */
+    text-align: left;}
+/* .accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) 
+} */
